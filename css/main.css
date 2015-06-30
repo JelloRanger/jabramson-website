@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+}
+
+.bg {
+  /*background-color: #BF6600;*/
+  background: repeating-linear-gradient(
+  45deg,
+  #BC690A,
+  #BC690A 10px,
+  #935309 10px,
+  #935309 20px
+);
+  font-family: Lucida Sans Unicode;
+  font-size: 120%;
+  color: #34495e;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.tablet {
+  background: #FF8C08;
+  border-radius: 25px;
+  display: block;
+  height: 75%;
+  width: 75%;
+  text-align: center;
+  -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.22);
+  box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.22);
+  padding: 0px;
+}
+
+.button {
+  background: linear-gradient(#FF951A,#935309);
+  padding: 20px;
+  font-size: 150%;
+  display: inline-block;
+  float: left;
+  width: 25%;
+  text-decoration: none;
+  color: inherit;
+  text-shadow: 1px 1px 1px #FF951A;
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.22);
+  box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.22);
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  -webkit-transition: linear-gradient 2s;
+}
+
+.buttonLeft {
+  border-radius: 10px 0px 0px 0px;
+}
+
+.buttonRight {
+  border-radius: 0px 10px 0px 0px;
+}
+
+.button:hover, .btnClicked {
+  background: linear-gradient(#935309,#FF951A);
+  /*background: linear-gradient(#FF951A,#935309);*/
+}
+
+
+/*.buttonLeft:active, .btnClicked {
+  background: linear-gradient(#FF951A,#935309);
+}
+
+.buttonMiddle:active {
+  background: linear-gradient(#BF6600,#935309);
+}
+
+.buttonRight:active {
+  background: linear-gradient(#BF6600,#935309);
+}*/
+
+/*a:hover {
+  background: linear-gradient(#935309,#FF951A);
+}
+
+a:active {
+  background: linear-gradient(#BF6600,#935309);
+}*/
+
+#home, #about, #projects, #contact {
+  display: none;
+}
+
+#menu {
+ display: block;
+  height: 20%;
+}
+
+#content {
+  display:block;
+  height:80%;
+  padding: 20px;
+  text-align: justify;
+  margin: 0 auto;
+  width: 80%;
+}
+/* color palette
+http://paletton.com/#uid=50D0Z0kw0tCsIJLu+Cdudnzu4iw
+*/
