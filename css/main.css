@@ -2,6 +2,10 @@ html {
   height: 100%;
 }
 
+p {
+  display: inline;
+}
+
 .bg {
   /*background-color: #BF6600;*/
   background: repeating-linear-gradient(
@@ -9,16 +13,17 @@ html {
   #BC690A,
   #BC690A 10px,
   #935309 10px,
-  #935309 20px
-);
-  font-family: Lucida Sans Unicode;
-  font-size: 120%;
+  #935309 20px);
+  /*font-family: Lucida Sans Unicode;*/
+  font-family: 'Droid Serif', Georgia, serif;
+  font-size: 125%;
   color: #34495e;
   align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
   height: inherit;
+  overflow: hidden;
 }
 
 .tablet {
@@ -66,33 +71,31 @@ html {
   /*background: linear-gradient(#FF951A,#935309);*/
 }
 
+.img {
+  height: auto;
+  width: auto;
+  max-width:400px;
+  max-height:400px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.22);
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
 
-/*.buttonLeft:active, .btnClicked {
-  background: linear-gradient(#FF951A,#935309);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  display: inline-block;
+  
+  margin-right: 20px;
+
 }
 
-.buttonMiddle:active {
-  background: linear-gradient(#BF6600,#935309);
-}
-
-.buttonRight:active {
-  background: linear-gradient(#BF6600,#935309);
-}*/
-
-/*a:hover {
-  background: linear-gradient(#935309,#FF951A);
-}
-
-a:active {
-  background: linear-gradient(#BF6600,#935309);
-}*/
-
-#home, #about, #projects, #contact {
+#about, #projects, #contact {
   display: none;
 }
 
 #menu {
- display: block;
+  display: block;
   height: 20%;
 }
 
@@ -104,6 +107,18 @@ a:active {
   margin: 0 auto;
   width: 80%;
 }
+
+figcaption {
+    margin: 10px 0 0 0;
+    font-variant: small-caps;
+    font-size: 100%;
+    text-align:center;
+}
+
+figure {
+  float:left;
+}
+
 /* color palette
 http://paletton.com/#uid=50D0Z0kw0tCsIJLu+Cdudnzu4iw
 */
