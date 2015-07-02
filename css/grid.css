@@ -1,0 +1,70 @@
+ul.rig {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -2.5%;
+}
+
+ul.rig li {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	padding: 0 0 10px 0;
+	margin: 0 0 2.5% 2.5%;
+	background: #FF951A;
+	border: 5px solid #935309;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 20px #935309;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+ul.rig li img {
+	width: 100%;
+	height: auto;
+	display: block;
+	/*margin: 0 0 10px;*/
+
+	-webkit-transition: all .5s ease; /* Safari and chrome */
+	-moz-transition: all .5s ease; /* Firefox */
+	-ms-transition: all .5s ease; /* IE 9 */
+	-o-transition: all .5s ease; /* Opera */
+	transition: all .5s ease;
+}
+
+ul.rig li .testbg {
+	width: 100%;
+	height:auto;
+	display: block;
+	background: url("res/testimage.jpg");
+	-webkit-transition: all .5s ease; /* Safari and chrome */
+	-moz-transition: all .5s ease; /* Firefox */
+	-ms-transition: all .5s ease; /* IE 9 */
+	-o-transition: all .5s ease; /* Opera */
+	transition: all .5s ease;
+
+}
+
+ul.rig li h3 {
+	margin: 0 0 5px;
+}
+
+ul.rig li p {
+	font-size: .9em;
+	line-height: 1.5em;
+	
+}
+
+ul.rig.columns-2 li {
+	width: 47.5%;
+}
+
+ul.rig:hover img {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}

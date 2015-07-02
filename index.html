@@ -4,6 +4,7 @@
   
   <head>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="scripts/jsfunctions.js"></script>
@@ -26,7 +27,7 @@
 
       <div id="content">
 
-        <div id="home">
+        <div id="home" class="menuContent">
           <!--<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. </p> -->
 
           <h1>Welcome!</h1>
@@ -34,23 +35,84 @@
           <p> Hi, I'm Jacob. I'm an upcoming senior studying Computer Science as well as Economics at Rensselaer Polytechnic Institute. I am also currently working as a Software Engineer at CharlesRiver Development for the summer. I enjoy front-end as well as back-end development and am experienced in Java, C++, HTML, CSS, Javascript, and Python.
         </div>
 
-        <div id="about">
+        <div id="about" class="menuContent">
 
           <figure>
             <img class="img" src="res/testimage.jpg"/>
             <figcaption>Skiing at Stowe MT, VT!</figcaption>
           </figure>
-          <p>My name is Jacob Abramson and and I am a passionate developer insterested in both front-end and back-end development with a passion to try something new. I study both Computer Science and Economics at Rensselaer Polytechnic Institute in Troy, NY.</p>
+
+          <p>My name is Jacob Abramson and and I am a passionate developer interested in both front-end and back-end development with a passion to try something new. I study both Computer Science and Economics at Rensselaer Polytechnic Institute in Troy, NY.</p>
           <br/><br/>
-          <p>I'm currently living in Nashua, NH this summer working at Charles River Development. In the past I've worked as a software developer for Standard &amp; Poor's Rating Services in New York, NY. I've dabbled in web development, database work, large-scale java applications, and mobile development.</p>
+          <p>I'm currently living in Nashua, NH this summer working as a developer at Charles River Development. Here I'm participating in a team using Agile technologies to manage and enhance a complex investment management application. In the past I've worked as a software developer for Standard &amp; Poor's Rating Services in New York, NY developing software for their financial analysts. I have on the job experience with Java, SQL, C#, HTML, CSS, JavaScript, and other frameworks and technologies.</p>
           <br/><br/>
-          <p>I also love skiing in the winter, and playing badminton and biking in the other months!</p>
+          <p>I've also dabbled in web development and design, mobile applications, and Python programs on my own time.</p>
 
         </div>
-        <div id="projects">test</div>
-        <div id="contact">super duper wuper</div>
+        <div id="projects" class="menuContent grid">
+
+          <!-- <div class="item">
+            <img class="img2" src="res/testimage.jpg"/>
+          </div>
+
+          <div class="item">
+            <p>caption is here lalalalalalf efeffeefefef<p>
+          </div>
+          
+          <div class="item">
+            <img class="img2" src="res/testimage.jpg"/>
+          </div>
+
+          <div class="item">
+            <p>caption is here lalalalalalf efeffeefefef<p>
+          </div>
+
+          <div class="item">
+            <img class="img2" src="res/testimage.jpg"/>
+          </div>
+
+          <div class="item">
+            <p>caption is here lalalalalalf efeffeefefef<p>
+          </div>
+
+          <div class="item">
+            <img class="img2" src="res/testimage.jpg"/>
+          </div>
+
+          <div class="item">
+            <p>caption is here lalalalalalf efeffeefefef<p>
+          </div> -->
+
+          <ul class="rig columns-2"> 
+
+          <li>
+            <img src="res/testimage.jpg" />
+            <h3>Image Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          </li>
+          <li>
+            <img src="res/testimage.jpg" />
+            <h3>Image Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          </li>
+          <li>
+            <img src="res/testimage.jpg" />
+            <h3>Image Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          </li>
+          <li>
+            <img src="res/testimage.jpg" />
+            <h3>Image Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          </li>
+        </ul>
+
+        </div>
+        <div id="contact" class="menuContent">super duper wuper</div>
 
       </div>
+
+      <div style="clear:both"></div>
 
     </div>
     
