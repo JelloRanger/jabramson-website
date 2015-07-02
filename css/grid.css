@@ -8,8 +8,10 @@ ul.rig li {
 	position: relative;
 	overflow: hidden;
 	display: inline-block;
-	padding: 0 0 10px 0;
+	cursor: pointer;
+	/*padding: 0 0 10px 0;*/
 	margin: 0 0 2.5% 2.5%;
+	width: 47.5%;
 	background: #FF951A;
 	border: 5px solid #935309;
 	font-size: 16px;
@@ -34,34 +36,45 @@ ul.rig li img {
 	transition: all .5s ease;
 }
 
-ul.rig li .testbg {
-	width: 100%;
-	height:auto;
-	display: block;
-	background: url("res/testimage.jpg");
-	-webkit-transition: all .5s ease; /* Safari and chrome */
-	-moz-transition: all .5s ease; /* Firefox */
-	-ms-transition: all .5s ease; /* IE 9 */
-	-o-transition: all .5s ease; /* Opera */
-	transition: all .5s ease;
-
-}
-
 ul.rig li h3 {
 	margin: 0 0 5px;
+	color: white;
 }
 
 ul.rig li p {
 	font-size: .9em;
 	line-height: 1.5em;
-	
+	color: white;
 }
 
-ul.rig.columns-2 li {
-	width: 47.5%;
+ul.rig .gridCaption {
+	color: white;
+	text-shadow: 2px 2px 0px #000;
+	font-weight:900;
+	opacity:1;
+	margin-left: 5px;
+	/*background-color:rgba(245,245,245,0.5);*/
+	/* background: repeating-linear-gradient(
+  45deg,
+  #ecf0f1,
+  #ecf0f1 2px,
+  #95a5a6 2px,
+  #95a5a6 4px);*/
+	 opacity: 1;
+	width: 100%;
+	position:absolute;
+	bottom: 0px;
+	z-index: 10;
+	/*background: rgba(0, 0, 0, .5);*/
+	-webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+
 }
 
-ul.rig:hover img {
+ul.rig li:hover img {
 	-webkit-transform:scale(1.25); /* Safari and Chrome */
     -moz-transform:scale(1.25); /* Firefox */
     -ms-transform:scale(1.25); /* IE 9 */
