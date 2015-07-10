@@ -21,6 +21,9 @@ ul.rig li {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+
+	height: 325px;
+	/*width: 50%;*/
 }
 
 ul.rig li img {

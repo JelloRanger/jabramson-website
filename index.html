@@ -5,8 +5,9 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/grid.css">
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="scripts/jsfunctions.js"></script>
   </head>
   
@@ -86,7 +87,9 @@
           <ul class="rig"> 
 
           <li>
-            <img src="res/filefly.png" />
+            <a href="https://github.com/askii93/FileFly" target="_blank">
+              <img src="res/filefly.png" />
+            </a>
             
             <span class="gridCaption">
               <h3>FileFly</h3>
@@ -94,11 +97,13 @@
             </span>
           </li>
           <li>
-            <img src="res/testimage2.jpg" />
+            <a href="https://github.com/JelloRanger/menu-scraper" target="_blank">
+              <img src="res/menuscraper.png" />
+            </a>
 
             <span class="gridCaption">
-              <h3>Image Title</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+              <h3>RPI Dining Hall Menu Scraper</h3>
+              <p>RPI Dining Hall Menu scraper written in Python 3</p>
             </span>
           </li>
           <li>
@@ -110,17 +115,46 @@
             </span>
           </li>
           <li>
-            <img src="res/testimage2.jpg" />
+            <img src="res/treesim2.png" />
 
             <span class="gridCaption">
-              <h3>Image Title</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+              <h3>TreeSim</h3>
+              <p>A simulation of a forest's ecology written in Java</p>
             </span>
           </li>
         </ul>
 
         </div>
-        <div id="contact" class="menuContent">super duper wuper</div>
+        <div id="contact" class="menuContent">
+
+          <form class="form">
+
+            <p class="name formItem">
+              <input type="text" name="name" id="name" placeholder="Your Name" />
+              <label for="name">Name</label>
+            </p>
+
+            <p class="email formItem">
+              <input type="text" name="email" id="email" placeholder="example@test.com" />
+              <label for="email">Email</label>
+            </p>
+
+            <p class="web formItem">
+              <input type="text" name="web" id="web" placeholder="www.website.com" />
+              <label for="web">Website</label>
+            </p>
+
+            <p class="text formItem">
+              <textarea name="text" placeholder="Write something here" /></textarea>
+            </p>
+
+            <p class="submit formItem">
+              <input type="submit" value="Send" />
+            </p>
+
+        </form>
+
+        </div>
 
       </div>
 
